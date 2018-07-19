@@ -1,0 +1,119 @@
+/* global styles */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin-top: 10px;
+
+}
+
+h2 {
+  fost-size:2.2em;
+  line-height: 1.3em;
+}
+
+p {
+  font-family: "Roboto" sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.color-text-white {
+  color: #ffffff;
+}
+
+/* nav */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-default {
+  background: #000000;
+}
+
+.navbar-brand {
+  padding-top: 12px;
+}
+
+.navbar-brand h1 {
+  color: #ffffff;
+  font-family: "Oswald" sans-serif;
+  margin-top: 0;
+  font-size: 26px;
+  transition: color .1s ease-in;
+}
+
+.navbar-brand h1:hover {
+  color: #c72c72;
+}
+
+/* homepage jumbotron */
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.home-jumbotron {
+  background: rgba(36,151,163);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* footer section */
+
+.footer-section {
+  background: #030116;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+
+.footer-social {
+  text-align: center;
+
+}
+
+.fab {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-social a {
+  color:#c72c72;
+}
+
+.footer-social a:hover {
+  color:#ffffff;
+}
+
+/* sm screen */
+@media (min-width:768px) {
+  .home-jumbotron {
+    min-height: 100vh - 50px;
+  }
+}
+
+/* md screen */
+@media (min-width:992px) {
+.home-jumbotron {
+  text-align: left;
+}
+
+.home-jumbotron-left {
+  padding-top: 100px;
+}
+
+.footer-social {
+    text-align: left;
+  }
+}
+
+/* lg screen */
+@media (min-width:1200px) {
+
+}
